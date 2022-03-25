@@ -1,0 +1,399 @@
+{
+  "address": "0x3C1789217bd228e1C5d86052AA2dCA5FA3534ABe",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "treasury",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "bond",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "_initialOwner",
+          "type": "address"
+        }
+      ],
+      "name": "NewBond",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "bondDetails",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "_payoutToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_principleToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_treasuryAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_bondAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_initialOwner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "bondDetailsCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "count",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "bondManager",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "factory",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "indexOfBond",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "policy",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_payoutToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_principleToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_customTreasury",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_customBond",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_initialOwner",
+          "type": "address"
+        }
+      ],
+      "name": "pushBond",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "_treasury",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_bond",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_factory",
+          "type": "address"
+        }
+      ],
+      "name": "setFactoryAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newManager",
+          "type": "address"
+        }
+      ],
+      "name": "transferBondManagement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xc396842c4ffa507c3b546f6b8718e92f35e09379372b20ca71db9c6aedfdab19",
+  "receipt": {
+    "to": null,
+    "from": "0xb10bcC8B508174c761CFB1E7143bFE37c4fBC3a1",
+    "contractAddress": "0x3C1789217bd228e1C5d86052AA2dCA5FA3534ABe",
+    "transactionIndex": 31,
+    "gasUsed": "533642",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xd2ae337feb6e91b2d61f5937ee0debf4faa61ea80de7f48536486f9a9fcc0fd5",
+    "transactionHash": "0xc396842c4ffa507c3b546f6b8718e92f35e09379372b20ca71db9c6aedfdab19",
+    "logs": [],
+    "blockNumber": 9894454,
+    "cumulativeGasUsed": "3307889",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "7abecc991158ab403c5243682d97805e",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"treasury\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"bond\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_initialOwner\",\"type\":\"address\"}],\"name\":\"NewBond\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"bondDetails\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"_payoutToken\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_principleToken\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_treasuryAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_bondAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_initialOwner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"bondDetailsCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"count\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"bondManager\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"factory\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"indexOfBond\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"policy\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_payoutToken\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_principleToken\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_customTreasury\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_customBond\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_initialOwner\",\"type\":\"address\"}],\"name\":\"pushBond\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"_treasury\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_bond\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_factory\",\"type\":\"address\"}],\"name\":\"setFactoryAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newManager\",\"type\":\"address\"}],\"name\":\"transferBondManagement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"pushBond(address,address,address,address,address)\":{\"params\":{\"_customBond\":\"address\",\"_customTreasury\":\"address\",\"_initialOwner\":\"address\",\"_payoutToken\":\"address\",\"_principleToken\":\"address\"},\"returns\":{\"_bond\":\"address\",\"_treasury\":\"address\"}},\"setFactoryAddress(address)\":{\"params\":{\"_factory\":\"address\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"bondDetailsCount()\":{\"notice\":\"get bondDetails count\"},\"pushBond(address,address,address,address,address)\":{\"notice\":\"pushes bond details to array\"},\"setFactoryAddress(address)\":{\"notice\":\"changes flux pro factory address\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/bonding/FactoryStorage.sol\":\"FactoryStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":2000},\"remappings\":[]},\"sources\":{\"src/bonding/FactoryStorage.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity 0.7.5;\\n\\nimport \\\"../types/BondOwnable.sol\\\";\\n\\ncontract FactoryStorage is BondOwnable {\\n    struct BondDetails {\\n        address _payoutToken;\\n        address _principleToken;\\n        address _treasuryAddress;\\n        address _bondAddress;\\n        address _initialOwner;\\n    }\\n\\n    BondDetails[] public bondDetails;\\n\\n    address public factory;\\n\\n    mapping(address => uint256) public indexOfBond;\\n\\n    event NewBond(address treasury, address bond, address _initialOwner);\\n\\n    /* ======== POLICY FUNCTIONS ======== */\\n\\n    /**\\n        @notice pushes bond details to array\\n        @param _payoutToken address\\n        @param _principleToken address\\n        @param _customTreasury address\\n        @param _customBond address\\n        @param _initialOwner address\\n        @return _treasury address\\n        @return _bond address\\n     */\\n    function pushBond(\\n        address _payoutToken,\\n        address _principleToken,\\n        address _customTreasury,\\n        address _customBond,\\n        address _initialOwner\\n    ) external returns(address _treasury, address _bond) {\\n\\n        require(msg.sender == factory, \\\"Not Factory\\\");\\n\\n        indexOfBond[_customBond] = bondDetails.length;\\n\\n        bondDetails.push(\\n            BondDetails({\\n                _payoutToken: _payoutToken,\\n                _principleToken: _principleToken,\\n                _treasuryAddress: _customTreasury,\\n                _bondAddress: _customBond,\\n                _initialOwner: _initialOwner\\n            })\\n        );\\n\\n        emit NewBond(_customTreasury, _customBond, _initialOwner);\\n\\n        return(_customTreasury, _customBond);\\n    }\\n    /**\\n        @notice get bondDetails count\\n     */\\n    function bondDetailsCount() public view returns(uint count) {\\n        return bondDetails.length;\\n    }\\n\\n    /**\\n        @notice changes flux pro factory address\\n        @param _factory address\\n     */\\n    function setFactoryAddress(address _factory) external onlyPolicy {\\n        factory = _factory;\\n    }\\n}\\n\",\"keccak256\":\"0x50c6ae50dfb91e5120f67a812059b5c230aae5b194c8cf17c7db845a73b58d44\",\"license\":\"GPL-3.0\"},\"src/types/BondOwnable.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity 0.7.5;\\n\\ncontract BondOwnable {\\n    address public policy;\\n    address public bondManager;\\n\\n    constructor() {\\n        policy = msg.sender;\\n        bondManager = msg.sender;\\n    }\\n\\n    modifier onlyPolicy() {\\n        require(msg.sender == policy, \\\"BondOwnable: caller is not the owner\\\");\\n        _;\\n    }\\n\\n    modifier onlyBondManager() {\\n        require(msg.sender == bondManager, \\\"BondOwnable: caller is not the bond manager\\\");\\n        _;\\n    }\\n    function transferBondManagement(address _newManager) external onlyPolicy {\\n        require(_newManager != address(0), \\\"BondOwnable: _newManager must not be zero address\\\");\\n        bondManager = _newManager;\\n    }\\n\\n    function transferOwnership(address _newOwner) external onlyPolicy {\\n        require(_newOwner != address(0), \\\"BondOwnable: newOwner must not be zero address\\\");\\n        policy = _newOwner;\\n    }\\n}\\n\",\"keccak256\":\"0xe0ab88188eece4064755444ca9f386d1a30bde18a7545232375d9855a077c83c\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060008054336001600160a01b031991821681178355600180549092161790556107e190819061004090396000f3fe608060405234801561001057600080fd5b50600436106100be5760003560e01c8063b1770b3711610076578063d8b256b41161005b578063d8b256b414610209578063e0cf52161461022f578063f2fde38b14610255576100be565b8063b1770b37146101a8578063c45a015514610201576100be565b8063377a5108116100a7578063377a5108146100ef57806365f99cd01461010957806383c17c5514610180576100be565b80630505c8c9146100c3578063363cc427146100e7575b600080fd5b6100cb61027b565b604080516001600160a01b039092168252519081900360200190f35b6100cb61028a565b6100f7610299565b60408051918252519081900360200190f35b610151600480360360a081101561011f57600080fd5b506001600160a01b0381358116916020810135821691604082013581169160608101358216916080909101351661029f565b60405180836001600160a01b03168152602001826001600160a01b031681526020019250505060405180910390f35b6101a66004803603602081101561019657600080fd5b50356001600160a01b03166104c1565b005b6101c5600480360360208110156101be57600080fd5b5035610539565b604080516001600160a01b0396871681529486166020860152928516848401529084166060840152909216608082015290519081900360a00190f35b6100cb61058d565b6100f76004803603602081101561021f57600080fd5b50356001600160a01b031661059c565b6101a66004803603602081101561024557600080fd5b50356001600160a01b03166105ae565b6101a66004803603602081101561026b57600080fd5b50356001600160a01b031661066b565b6000546001600160a01b031681565b6001546001600160a01b031681565b60025490565b60035460009081906001600160a01b03163314610303576040805162461bcd60e51b815260206004820152600b60248201527f4e6f7420466163746f7279000000000000000000000000000000000000000000604482015290519081900360640190fd5b600280546001600160a01b038087166000818152600460209081526040808320869055805160a0810182528e861681528d86168184019081528d871682840181815260608085018981528f8b166080870181815260018e018f559d90995294516005909b027f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace810180549c8c1673ffffffffffffffffffffffffffffffffffffffff199d8e1617905593517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5acf85018054918c16918d1691909117905590517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ad084018054918b16918c1691909117905592517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ad183018054918a16918b1691909117905598517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ad2909101805491909716971696909617909455835195865285019190915283820152517f42fda3176442e9a8959c45f539015766faca90fb0e02a2c21dab39ecdce4a6999281900390910190a15092959194509092505050565b6000546001600160a01b0316331461050a5760405162461bcd60e51b81526004018080602001828103825260248152602001806107886024913960400191505060405180910390fd5b6003805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6002818154811061054957600080fd5b6000918252602090912060059091020180546001820154600283015460038401546004909401546001600160a01b0393841695509183169390831692908116911685565b6003546001600160a01b031681565b60046020526000908152604090205481565b6000546001600160a01b031633146105f75760405162461bcd60e51b81526004018080602001828103825260248152602001806107886024913960400191505060405180910390fd5b6001600160a01b03811661063c5760405162461bcd60e51b81526004018080602001828103825260318152602001806107576031913960400191505060405180910390fd5b6001805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6000546001600160a01b031633146106b45760405162461bcd60e51b81526004018080602001828103825260248152602001806107886024913960400191505060405180910390fd5b6001600160a01b0381166106f95760405162461bcd60e51b815260040180806020018281038252602e815260200180610729602e913960400191505060405180910390fd5b6000805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b039290921691909117905556fe426f6e644f776e61626c653a206e65774f776e6572206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a205f6e65774d616e61676572206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572a26469706673582212205ba36927c09fe4bc0301c375c20418e828598b166ea26a23c4f5c08bd801da1164736f6c63430007050033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100be5760003560e01c8063b1770b3711610076578063d8b256b41161005b578063d8b256b414610209578063e0cf52161461022f578063f2fde38b14610255576100be565b8063b1770b37146101a8578063c45a015514610201576100be565b8063377a5108116100a7578063377a5108146100ef57806365f99cd01461010957806383c17c5514610180576100be565b80630505c8c9146100c3578063363cc427146100e7575b600080fd5b6100cb61027b565b604080516001600160a01b039092168252519081900360200190f35b6100cb61028a565b6100f7610299565b60408051918252519081900360200190f35b610151600480360360a081101561011f57600080fd5b506001600160a01b0381358116916020810135821691604082013581169160608101358216916080909101351661029f565b60405180836001600160a01b03168152602001826001600160a01b031681526020019250505060405180910390f35b6101a66004803603602081101561019657600080fd5b50356001600160a01b03166104c1565b005b6101c5600480360360208110156101be57600080fd5b5035610539565b604080516001600160a01b0396871681529486166020860152928516848401529084166060840152909216608082015290519081900360a00190f35b6100cb61058d565b6100f76004803603602081101561021f57600080fd5b50356001600160a01b031661059c565b6101a66004803603602081101561024557600080fd5b50356001600160a01b03166105ae565b6101a66004803603602081101561026b57600080fd5b50356001600160a01b031661066b565b6000546001600160a01b031681565b6001546001600160a01b031681565b60025490565b60035460009081906001600160a01b03163314610303576040805162461bcd60e51b815260206004820152600b60248201527f4e6f7420466163746f7279000000000000000000000000000000000000000000604482015290519081900360640190fd5b600280546001600160a01b038087166000818152600460209081526040808320869055805160a0810182528e861681528d86168184019081528d871682840181815260608085018981528f8b166080870181815260018e018f559d90995294516005909b027f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace810180549c8c1673ffffffffffffffffffffffffffffffffffffffff199d8e1617905593517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5acf85018054918c16918d1691909117905590517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ad084018054918b16918c1691909117905592517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ad183018054918a16918b1691909117905598517f405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ad2909101805491909716971696909617909455835195865285019190915283820152517f42fda3176442e9a8959c45f539015766faca90fb0e02a2c21dab39ecdce4a6999281900390910190a15092959194509092505050565b6000546001600160a01b0316331461050a5760405162461bcd60e51b81526004018080602001828103825260248152602001806107886024913960400191505060405180910390fd5b6003805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6002818154811061054957600080fd5b6000918252602090912060059091020180546001820154600283015460038401546004909401546001600160a01b0393841695509183169390831692908116911685565b6003546001600160a01b031681565b60046020526000908152604090205481565b6000546001600160a01b031633146105f75760405162461bcd60e51b81526004018080602001828103825260248152602001806107886024913960400191505060405180910390fd5b6001600160a01b03811661063c5760405162461bcd60e51b81526004018080602001828103825260318152602001806107576031913960400191505060405180910390fd5b6001805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6000546001600160a01b031633146106b45760405162461bcd60e51b81526004018080602001828103825260248152602001806107886024913960400191505060405180910390fd5b6001600160a01b0381166106f95760405162461bcd60e51b815260040180806020018281038252602e815260200180610729602e913960400191505060405180910390fd5b6000805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b039290921691909117905556fe426f6e644f776e61626c653a206e65774f776e6572206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a205f6e65774d616e61676572206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572a26469706673582212205ba36927c09fe4bc0301c375c20418e828598b166ea26a23c4f5c08bd801da1164736f6c63430007050033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "pushBond(address,address,address,address,address)": {
+        "params": {
+          "_customBond": "address",
+          "_customTreasury": "address",
+          "_initialOwner": "address",
+          "_payoutToken": "address",
+          "_principleToken": "address"
+        },
+        "returns": {
+          "_bond": "address",
+          "_treasury": "address"
+        }
+      },
+      "setFactoryAddress(address)": {
+        "params": {
+          "_factory": "address"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "bondDetailsCount()": {
+        "notice": "get bondDetails count"
+      },
+      "pushBond(address,address,address,address,address)": {
+        "notice": "pushes bond details to array"
+      },
+      "setFactoryAddress(address)": {
+        "notice": "changes flux pro factory address"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 5578,
+        "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+        "label": "policy",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 5580,
+        "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+        "label": "bondManager",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_address"
+      },
+      {
+        "astId": 2234,
+        "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+        "label": "bondDetails",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_array(t_struct(BondDetails)2231_storage)dyn_storage"
+      },
+      {
+        "astId": 2236,
+        "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+        "label": "factory",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_address"
+      },
+      {
+        "astId": 2240,
+        "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+        "label": "indexOfBond",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_mapping(t_address,t_uint256)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_struct(BondDetails)2231_storage)dyn_storage": {
+        "base": "t_struct(BondDetails)2231_storage",
+        "encoding": "dynamic_array",
+        "label": "struct FactoryStorage.BondDetails[]",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_struct(BondDetails)2231_storage": {
+        "encoding": "inplace",
+        "label": "struct FactoryStorage.BondDetails",
+        "members": [
+          {
+            "astId": 2222,
+            "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+            "label": "_payoutToken",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address"
+          },
+          {
+            "astId": 2224,
+            "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+            "label": "_principleToken",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address"
+          },
+          {
+            "astId": 2226,
+            "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+            "label": "_treasuryAddress",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address"
+          },
+          {
+            "astId": 2228,
+            "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+            "label": "_bondAddress",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address"
+          },
+          {
+            "astId": 2230,
+            "contract": "src/bonding/FactoryStorage.sol:FactoryStorage",
+            "label": "_initialOwner",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address"
+          }
+        ],
+        "numberOfBytes": "160"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

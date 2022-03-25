@@ -1,0 +1,220 @@
+{
+  "address": "0xA1260B541f15514295EE0A6831189dC321cDeC12",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_bond",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_subsidyController",
+          "type": "address"
+        }
+      ],
+      "name": "addSubsidyController",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "bondForController",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "bondManager",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getSubsidyInfo",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "policy",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_subsidyController",
+          "type": "address"
+        }
+      ],
+      "name": "removeSubsidyController",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newManager",
+          "type": "address"
+        }
+      ],
+      "name": "transferBondManagement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x4f519fd267269780e1ee0b7b0739ae241d00c8db8428824526a0d72dc8f1c93e",
+  "receipt": {
+    "to": null,
+    "from": "0xb10bcC8B508174c761CFB1E7143bFE37c4fBC3a1",
+    "contractAddress": "0xA1260B541f15514295EE0A6831189dC321cDeC12",
+    "transactionIndex": 92,
+    "gasUsed": "483192",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x3e9136fdf55af07d4eed9dadecc62b70008e711036897343690e481a0dea00c8",
+    "transactionHash": "0x4f519fd267269780e1ee0b7b0739ae241d00c8db8428824526a0d72dc8f1c93e",
+    "logs": [],
+    "blockNumber": 9894455,
+    "cumulativeGasUsed": "8471018",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "7abecc991158ab403c5243682d97805e",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_bond\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_subsidyController\",\"type\":\"address\"}],\"name\":\"addSubsidyController\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"bondForController\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"bondManager\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getSubsidyInfo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"policy\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_subsidyController\",\"type\":\"address\"}],\"name\":\"removeSubsidyController\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newManager\",\"type\":\"address\"}],\"name\":\"transferBondManagement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"addSubsidyController(address,address)\":{\"params\":{\"_bond\":\"address\",\"_subsidyController\":\"address\"}},\"getSubsidyInfo()\":{\"returns\":{\"_0\":\"uint\"}},\"removeSubsidyController(address)\":{\"params\":{\"_subsidyController\":\"address\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"addSubsidyController(address,address)\":{\"notice\":\"add new subsidy controller for bond contract\"},\"getSubsidyInfo()\":{\"notice\":\"subsidy controller fetches and resets payout counter\"},\"removeSubsidyController(address)\":{\"notice\":\"remove subsidy controller for bond contract\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/bonding/SubsidyRouter.sol\":\"SubsidyRouter\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":2000},\"remappings\":[]},\"sources\":{\"src/bonding/SubsidyRouter.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity 0.7.5;\\n\\nimport \\\"../types/BondOwnable.sol\\\";\\n\\ninterface IBond {\\n    function paySubsidy() external returns ( uint );\\n}\\n\\n// Immutable contract routes between Olympus Pro bonds and subsidy controllers\\n// Allows for subsidies on bonds offered through bond contracts\\ncontract SubsidyRouter is BondOwnable {\\n\\n    mapping( address => address ) public bondForController; // maps bond contract managed by subsidy controller\\n\\n    /**\\n     *  @notice subsidy controller fetches and resets payout counter\\n     *  @return uint\\n     */\\n    function getSubsidyInfo() external returns ( uint ) {\\n        require(bondForController[msg.sender] != address(0), \\\"Address not mapped\\\" );\\n        return IBond(bondForController[msg.sender]).paySubsidy();\\n    }\\n\\n    /**\\n     *  @notice add new subsidy controller for bond contract\\n     *  @param _bond address\\n     *  @param _subsidyController address\\n     */\\n    function addSubsidyController( address _bond, address _subsidyController ) external onlyPolicy() {\\n        require(_bond != address(0), \\\"SubsidyRouter: bond must not be zero address\\\");\\n        require(_subsidyController != address(0), \\\"SubsidyRouter: controller must not be zero address\\\");\\n\\n        bondForController[_subsidyController] = _bond;\\n    }\\n\\n    /**\\n     *  @notice remove subsidy controller for bond contract\\n     *  @param _subsidyController address\\n     */\\n    function removeSubsidyController(address _subsidyController) external onlyPolicy() {\\n        bondForController[_subsidyController] = address(0);\\n    }\\n}\",\"keccak256\":\"0xee9d5eb8943a01fec2ad59dd2c3ce800b11e56d213172103d813b08262933eb2\",\"license\":\"GPL-3.0\"},\"src/types/BondOwnable.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity 0.7.5;\\n\\ncontract BondOwnable {\\n    address public policy;\\n    address public bondManager;\\n\\n    constructor() {\\n        policy = msg.sender;\\n        bondManager = msg.sender;\\n    }\\n\\n    modifier onlyPolicy() {\\n        require(msg.sender == policy, \\\"BondOwnable: caller is not the owner\\\");\\n        _;\\n    }\\n\\n    modifier onlyBondManager() {\\n        require(msg.sender == bondManager, \\\"BondOwnable: caller is not the bond manager\\\");\\n        _;\\n    }\\n    function transferBondManagement(address _newManager) external onlyPolicy {\\n        require(_newManager != address(0), \\\"BondOwnable: _newManager must not be zero address\\\");\\n        bondManager = _newManager;\\n    }\\n\\n    function transferOwnership(address _newOwner) external onlyPolicy {\\n        require(_newOwner != address(0), \\\"BondOwnable: newOwner must not be zero address\\\");\\n        policy = _newOwner;\\n    }\\n}\\n\",\"keccak256\":\"0xe0ab88188eece4064755444ca9f386d1a30bde18a7545232375d9855a077c83c\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060008054336001600160a01b031991821681178355600180549092161790556106f990819061004090396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c8063a9dab0261161005b578063a9dab026146100f9578063e0cf521614610121578063f2fde38b14610147578063fd0c92d41461016d57610088565b80630505c8c91461008d578063363cc427146100b1578063522c4ceb146100b95780636ec65358146100d3575b600080fd5b61009561019b565b604080516001600160a01b039092168252519081900360200190f35b6100956101aa565b6100c16101b9565b60408051918252519081900360200190f35b610095600480360360208110156100e957600080fd5b50356001600160a01b03166102c0565b61011f6004803603602081101561010f57600080fd5b50356001600160a01b03166102db565b005b61011f6004803603602081101561013757600080fd5b50356001600160a01b0316610358565b61011f6004803603602081101561015d57600080fd5b50356001600160a01b0316610415565b61011f6004803603604081101561018357600080fd5b506001600160a01b03813581169160200135166104d2565b6000546001600160a01b031681565b6001546001600160a01b031681565b336000908152600260205260408120546001600160a01b0316610223576040805162461bcd60e51b815260206004820152601260248201527f41646472657373206e6f74206d61707065640000000000000000000000000000604482015290519081900360640190fd5b3360009081526002602090815260408083205481517fa9bc6b7100000000000000000000000000000000000000000000000000000000815291516001600160a01b039091169363a9bc6b7193600480850194919392918390030190829087803b15801561028f57600080fd5b505af11580156102a3573d6000803e3d6000fd5b505050506040513d60208110156102b957600080fd5b5051905090565b6002602052600090815260409020546001600160a01b031681565b6000546001600160a01b031633146103245760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b03166000908152600260205260409020805473ffffffffffffffffffffffffffffffffffffffff19169055565b6000546001600160a01b031633146103a15760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b0381166103e65760405162461bcd60e51b815260040180806020018281038252603181526020018061063d6031913960400191505060405180910390fd5b6001805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6000546001600160a01b0316331461045e5760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b0381166104a35760405162461bcd60e51b815260040180806020018281038252602e8152602001806105e3602e913960400191505060405180910390fd5b6000805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6000546001600160a01b0316331461051b5760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b0382166105605760405162461bcd60e51b815260040180806020018281038252602c815260200180610611602c913960400191505060405180910390fd5b6001600160a01b0381166105a55760405162461bcd60e51b81526004018080602001828103825260328152602001806106926032913960400191505060405180910390fd5b6001600160a01b03908116600090815260026020526040902080549190921673ffffffffffffffffffffffffffffffffffffffff1990911617905556fe426f6e644f776e61626c653a206e65774f776e6572206d757374206e6f74206265207a65726f206164647265737353756273696479526f757465723a20626f6e64206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a205f6e65774d616e61676572206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e657253756273696479526f757465723a20636f6e74726f6c6c6572206d757374206e6f74206265207a65726f2061646472657373a26469706673582212204ffb4a3c4f5d1bb30de7d9df5474dfb1716084d8d50a8777538b6e0005a4648e64736f6c63430007050033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c8063a9dab0261161005b578063a9dab026146100f9578063e0cf521614610121578063f2fde38b14610147578063fd0c92d41461016d57610088565b80630505c8c91461008d578063363cc427146100b1578063522c4ceb146100b95780636ec65358146100d3575b600080fd5b61009561019b565b604080516001600160a01b039092168252519081900360200190f35b6100956101aa565b6100c16101b9565b60408051918252519081900360200190f35b610095600480360360208110156100e957600080fd5b50356001600160a01b03166102c0565b61011f6004803603602081101561010f57600080fd5b50356001600160a01b03166102db565b005b61011f6004803603602081101561013757600080fd5b50356001600160a01b0316610358565b61011f6004803603602081101561015d57600080fd5b50356001600160a01b0316610415565b61011f6004803603604081101561018357600080fd5b506001600160a01b03813581169160200135166104d2565b6000546001600160a01b031681565b6001546001600160a01b031681565b336000908152600260205260408120546001600160a01b0316610223576040805162461bcd60e51b815260206004820152601260248201527f41646472657373206e6f74206d61707065640000000000000000000000000000604482015290519081900360640190fd5b3360009081526002602090815260408083205481517fa9bc6b7100000000000000000000000000000000000000000000000000000000815291516001600160a01b039091169363a9bc6b7193600480850194919392918390030190829087803b15801561028f57600080fd5b505af11580156102a3573d6000803e3d6000fd5b505050506040513d60208110156102b957600080fd5b5051905090565b6002602052600090815260409020546001600160a01b031681565b6000546001600160a01b031633146103245760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b03166000908152600260205260409020805473ffffffffffffffffffffffffffffffffffffffff19169055565b6000546001600160a01b031633146103a15760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b0381166103e65760405162461bcd60e51b815260040180806020018281038252603181526020018061063d6031913960400191505060405180910390fd5b6001805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6000546001600160a01b0316331461045e5760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b0381166104a35760405162461bcd60e51b815260040180806020018281038252602e8152602001806105e3602e913960400191505060405180910390fd5b6000805473ffffffffffffffffffffffffffffffffffffffff19166001600160a01b0392909216919091179055565b6000546001600160a01b0316331461051b5760405162461bcd60e51b815260040180806020018281038252602481526020018061066e6024913960400191505060405180910390fd5b6001600160a01b0382166105605760405162461bcd60e51b815260040180806020018281038252602c815260200180610611602c913960400191505060405180910390fd5b6001600160a01b0381166105a55760405162461bcd60e51b81526004018080602001828103825260328152602001806106926032913960400191505060405180910390fd5b6001600160a01b03908116600090815260026020526040902080549190921673ffffffffffffffffffffffffffffffffffffffff1990911617905556fe426f6e644f776e61626c653a206e65774f776e6572206d757374206e6f74206265207a65726f206164647265737353756273696479526f757465723a20626f6e64206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a205f6e65774d616e61676572206d757374206e6f74206265207a65726f2061646472657373426f6e644f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e657253756273696479526f757465723a20636f6e74726f6c6c6572206d757374206e6f74206265207a65726f2061646472657373a26469706673582212204ffb4a3c4f5d1bb30de7d9df5474dfb1716084d8d50a8777538b6e0005a4648e64736f6c63430007050033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "addSubsidyController(address,address)": {
+        "params": {
+          "_bond": "address",
+          "_subsidyController": "address"
+        }
+      },
+      "getSubsidyInfo()": {
+        "returns": {
+          "_0": "uint"
+        }
+      },
+      "removeSubsidyController(address)": {
+        "params": {
+          "_subsidyController": "address"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "addSubsidyController(address,address)": {
+        "notice": "add new subsidy controller for bond contract"
+      },
+      "getSubsidyInfo()": {
+        "notice": "subsidy controller fetches and resets payout counter"
+      },
+      "removeSubsidyController(address)": {
+        "notice": "remove subsidy controller for bond contract"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 5578,
+        "contract": "src/bonding/SubsidyRouter.sol:SubsidyRouter",
+        "label": "policy",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 5580,
+        "contract": "src/bonding/SubsidyRouter.sol:SubsidyRouter",
+        "label": "bondManager",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_address"
+      },
+      {
+        "astId": 3424,
+        "contract": "src/bonding/SubsidyRouter.sol:SubsidyRouter",
+        "label": "bondForController",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_mapping(t_address,t_address)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_address)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => address)",
+        "numberOfBytes": "32",
+        "value": "t_address"
+      }
+    }
+  }
+}

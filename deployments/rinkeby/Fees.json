@@ -1,0 +1,188 @@
+{
+  "address": "0x4ff15c53edA95F407F09C647AF8028BBDaf9E1CB",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_dao",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256[]",
+          "name": "tierCeilings",
+          "type": "uint256[]"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256[]",
+          "name": "fees",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "FeesAndTierCeilings",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "DAO",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getFees",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTierCeilings",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "_tierCeilings",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "_fees",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "setTiersAndFees",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x4bd02ca1e604fcfc304c68f1e63b3efd6a894d434e0d7f515e540fdaf04d8d6d",
+  "receipt": {
+    "to": null,
+    "from": "0xb10bcC8B508174c761CFB1E7143bFE37c4fBC3a1",
+    "contractAddress": "0x4ff15c53edA95F407F09C647AF8028BBDaf9E1CB",
+    "transactionIndex": 35,
+    "gasUsed": "401185",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xe2fbd5071f5b323036994d3a8d3bedcd35053c17094062e41358e1deb127190f",
+    "transactionHash": "0x4bd02ca1e604fcfc304c68f1e63b3efd6a894d434e0d7f515e540fdaf04d8d6d",
+    "logs": [],
+    "blockNumber": 9894459,
+    "cumulativeGasUsed": "3403854",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xb10bcC8B508174c761CFB1E7143bFE37c4fBC3a1"
+  ],
+  "solcInputHash": "7abecc991158ab403c5243682d97805e",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_dao\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256[]\",\"name\":\"tierCeilings\",\"type\":\"uint256[]\"},{\"indexed\":false,\"internalType\":\"uint256[]\",\"name\":\"fees\",\"type\":\"uint256[]\"}],\"name\":\"FeesAndTierCeilings\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"DAO\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getFees\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getTierCeilings\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"_tierCeilings\",\"type\":\"uint256[]\"},{\"internalType\":\"uint256[]\",\"name\":\"_fees\",\"type\":\"uint256[]\"}],\"name\":\"setTiersAndFees\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"setTiersAndFees(uint256[],uint256[])\":{\"params\":{\"_fees\":\"uint[]\",\"_tierCeilings\":\"uint[]\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"getFees()\":{\"notice\":\"Get fees for bond\"},\"getTierCeilings()\":{\"notice\":\"Get tierCeilings for bond\"},\"setTiersAndFees(uint256[],uint256[])\":{\"notice\":\"set fee for creating bond\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/bonding/Fees.sol\":\"Fees\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":2000},\"remappings\":[]},\"sources\":{\"src/bonding/Fees.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity 0.7.5;\\npragma experimental ABIEncoderV2;\\n\\nimport \\\"../libraries/SafeMath.sol\\\";\\n\\ncontract Fees {    \\n    using SafeMath for uint256;\\n    \\n    address public DAO;\\n\\n    uint256[] private tierCeilings; \\n    uint256[] private fees;\\n\\n    event FeesAndTierCeilings(uint256[] tierCeilings, uint256[] fees);\\n\\n    modifier onlyDAO() {\\n        require(msg.sender == DAO, \\\"Only DAO call\\\");\\n        _;\\n    }\\n\\n    constructor(address _dao) {\\n        require(_dao != address(0), \\\"Fees: DAO bad address\\\");\\n        DAO = _dao;\\n    }\\n\\n    /// @notice set fee for creating bond\\n    /// @param _tierCeilings uint[]\\n    /// @param _fees uint[]\\n    function setTiersAndFees(\\n        uint256[] calldata _tierCeilings, \\n        uint256[] calldata _fees\\n    ) external onlyDAO {\\n        require(_tierCeilings.length == _fees.length, \\\"setTiersAndFees: Bad items length\\\");\\n\\n        uint256 feeSum = 0;\\n        for (uint256 i; i < _fees.length; i++) {\\n            feeSum = feeSum.add(_fees[i]);\\n        }\\n        \\n        require(feeSum > 0, \\\"setTiersAndFees: Bad fees\\\");\\n\\n        for (uint256 i; i < _fees.length; i++) {\\n            tierCeilings.push(_tierCeilings[i]);\\n            fees.push(_fees[i]);\\n        }\\n\\n        emit FeesAndTierCeilings(_tierCeilings, _fees);\\n    }\\n\\n    /// @notice Get fees for bond\\n    function getFees() external view returns (uint256[] memory) {\\n        return fees;\\n    }\\n\\n    /// @notice Get tierCeilings for bond\\n    function getTierCeilings() external view returns (uint256[] memory) {\\n        return tierCeilings;\\n    }\\n}\",\"keccak256\":\"0x1e03108c7be5db2b57312c512c589ec18d97c24f521ce62037278954446d31aa\",\"license\":\"GPL-3.0\"},\"src/libraries/SafeMath.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\n\\npragma solidity 0.7.5;\\n\\nlibrary SafeMath {\\n    function add(uint256 a, uint256 b) internal pure returns (uint256) {\\n        uint256 c = a + b;\\n        require(c >= a, \\\"SafeMath: addition overflow\\\");\\n\\n        return c;\\n    }\\n\\n    function sub(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return sub(a, b, \\\"SafeMath: subtraction overflow\\\");\\n    }\\n\\n    function sub(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        require(b <= a, errorMessage);\\n        uint256 c = a - b;\\n\\n        return c;\\n    }\\n\\n    function mul(uint256 a, uint256 b) internal pure returns (uint256) {\\n        if (a == 0) {\\n            return 0;\\n        }\\n\\n        uint256 c = a * b;\\n        require(c / a == b, \\\"SafeMath: multiplication overflow\\\");\\n\\n        return c;\\n    }\\n\\n    function div(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return div(a, b, \\\"SafeMath: division by zero\\\");\\n    }\\n\\n    function div(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        require(b > 0, errorMessage);\\n        uint256 c = a / b;\\n        return c;\\n    }\\n\\n    function mod(uint256 a, uint256 b) internal pure returns (uint256) {\\n        return mod(a, b, \\\"SafeMath: modulo by zero\\\");\\n    }\\n\\n    function mod(\\n        uint256 a,\\n        uint256 b,\\n        string memory errorMessage\\n    ) internal pure returns (uint256) {\\n        require(b != 0, errorMessage);\\n        return a % b;\\n    }\\n\\n    function sqrrt(uint256 a) internal pure returns (uint256 c) {\\n        if (a > 3) {\\n            c = a;\\n            uint256 b = add(div(a, 2), 1);\\n            while (b < c) {\\n                c = b;\\n                b = div(add(div(a, b), b), 2);\\n            }\\n        } else if (a != 0) {\\n            c = 1;\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x4d4a7d568edc5f572551495050789eb8e6d766a737cf3eaffee4508426da2518\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516106cd3803806106cd83398101604081905261002f91610083565b6001600160a01b03811661005e5760405162461bcd60e51b8152600401610055906100b1565b60405180910390fd5b600080546001600160a01b0319166001600160a01b03929092169190911790556100e8565b600060208284031215610094578081fd5b81516001600160a01b03811681146100aa578182fd5b9392505050565b60208082526015908201527f466565733a2044414f2062616420616464726573730000000000000000000000604082015260600190565b6105d6806100f76000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806398fabd3a14610051578063db8d55f11461006f578063e9b9fb6214610084578063f8f43c8b14610099575b600080fd5b6100596100a1565b604051610066919061043e565b60405180910390f35b6100776100bd565b6040516100669190610491565b610097610092366004610388565b610115565b005b610077610288565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b6060600280548060200260200160405190810160405280929190818152602001828054801561010b57602002820191906000526020600020905b8154815260200190600101908083116100f7575b5050505050905090565b60005473ffffffffffffffffffffffffffffffffffffffff1633146101555760405162461bcd60e51b815260040161014c90610569565b60405180910390fd5b8281146101745760405162461bcd60e51b815260040161014c906104d5565b6000805b828110156101af576101a584848381811061018f57fe5b90506020020135836102de90919063ffffffff16565b9150600101610178565b50600081116101d05760405162461bcd60e51b815260040161014c90610532565b60005b828110156102435760018686838181106101e957fe5b83546001810185556000948552602094859020919094029290920135919092015550600284848381811061021957fe5b835460018082018655600095865260209586902092909502939093013592019190915550016101d3565b507f7170399ecd66b5be3ad09fa69bb2f47cce8c6d7e055d71fdf154450f7b54982185858585604051610279949392919061045f565b60405180910390a15050505050565b6060600180548060200260200160405190810160405280929190818152602001828054801561010b57602002820191906000526020600020908154815260200190600101908083116100f7575050505050905090565b600082820183811015610338576040805162461bcd60e51b815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b60008083601f840112610350578182fd5b50813567ffffffffffffffff811115610367578182fd5b602083019150836020808302850101111561038157600080fd5b9250929050565b6000806000806040858703121561039d578384fd5b843567ffffffffffffffff808211156103b4578586fd5b6103c08883890161033f565b909650945060208701359150808211156103d8578384fd5b506103e58782880161033f565b95989497509550505050565b60008284527f07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff831115610422578081fd5b6020830280836020870137939093016020019283525090919050565b73ffffffffffffffffffffffffffffffffffffffff91909116815260200190565b6000604082526104736040830186886103f1565b82810360208401526104868185876103f1565b979650505050505050565b6020808252825182820181905260009190848201906040850190845b818110156104c9578351835292840192918401916001016104ad565b50909695505050505050565b60208082526021908201527f7365745469657273416e64466565733a20426164206974656d73206c656e677460408201527f6800000000000000000000000000000000000000000000000000000000000000606082015260800190565b60208082526019908201527f7365745469657273416e64466565733a20426164206665657300000000000000604082015260600190565b6020808252600d908201527f4f6e6c792044414f2063616c6c0000000000000000000000000000000000000060408201526060019056fea2646970667358221220ea80926e317eb2be983e6a460984f4244f6704d72120c9748d3046cff096d6d464736f6c63430007050033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806398fabd3a14610051578063db8d55f11461006f578063e9b9fb6214610084578063f8f43c8b14610099575b600080fd5b6100596100a1565b604051610066919061043e565b60405180910390f35b6100776100bd565b6040516100669190610491565b610097610092366004610388565b610115565b005b610077610288565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b6060600280548060200260200160405190810160405280929190818152602001828054801561010b57602002820191906000526020600020905b8154815260200190600101908083116100f7575b5050505050905090565b60005473ffffffffffffffffffffffffffffffffffffffff1633146101555760405162461bcd60e51b815260040161014c90610569565b60405180910390fd5b8281146101745760405162461bcd60e51b815260040161014c906104d5565b6000805b828110156101af576101a584848381811061018f57fe5b90506020020135836102de90919063ffffffff16565b9150600101610178565b50600081116101d05760405162461bcd60e51b815260040161014c90610532565b60005b828110156102435760018686838181106101e957fe5b83546001810185556000948552602094859020919094029290920135919092015550600284848381811061021957fe5b835460018082018655600095865260209586902092909502939093013592019190915550016101d3565b507f7170399ecd66b5be3ad09fa69bb2f47cce8c6d7e055d71fdf154450f7b54982185858585604051610279949392919061045f565b60405180910390a15050505050565b6060600180548060200260200160405190810160405280929190818152602001828054801561010b57602002820191906000526020600020908154815260200190600101908083116100f7575050505050905090565b600082820183811015610338576040805162461bcd60e51b815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b60008083601f840112610350578182fd5b50813567ffffffffffffffff811115610367578182fd5b602083019150836020808302850101111561038157600080fd5b9250929050565b6000806000806040858703121561039d578384fd5b843567ffffffffffffffff808211156103b4578586fd5b6103c08883890161033f565b909650945060208701359150808211156103d8578384fd5b506103e58782880161033f565b95989497509550505050565b60008284527f07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff831115610422578081fd5b6020830280836020870137939093016020019283525090919050565b73ffffffffffffffffffffffffffffffffffffffff91909116815260200190565b6000604082526104736040830186886103f1565b82810360208401526104868185876103f1565b979650505050505050565b6020808252825182820181905260009190848201906040850190845b818110156104c9578351835292840192918401916001016104ad565b50909695505050505050565b60208082526021908201527f7365745469657273416e64466565733a20426164206974656d73206c656e677460408201527f6800000000000000000000000000000000000000000000000000000000000000606082015260800190565b60208082526019908201527f7365745469657273416e64466565733a20426164206665657300000000000000604082015260600190565b6020808252600d908201527f4f6e6c792044414f2063616c6c0000000000000000000000000000000000000060408201526060019056fea2646970667358221220ea80926e317eb2be983e6a460984f4244f6704d72120c9748d3046cff096d6d464736f6c63430007050033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "setTiersAndFees(uint256[],uint256[])": {
+        "params": {
+          "_fees": "uint[]",
+          "_tierCeilings": "uint[]"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "getFees()": {
+        "notice": "Get fees for bond"
+      },
+      "getTierCeilings()": {
+        "notice": "Get tierCeilings for bond"
+      },
+      "setTiersAndFees(uint256[],uint256[])": {
+        "notice": "set fee for creating bond"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 2337,
+        "contract": "src/bonding/Fees.sol:Fees",
+        "label": "DAO",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 2340,
+        "contract": "src/bonding/Fees.sol:Fees",
+        "label": "tierCeilings",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_array(t_uint256)dyn_storage"
+      },
+      {
+        "astId": 2343,
+        "contract": "src/bonding/Fees.sol:Fees",
+        "label": "fees",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_array(t_uint256)dyn_storage"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_uint256)dyn_storage": {
+        "base": "t_uint256",
+        "encoding": "dynamic_array",
+        "label": "uint256[]",
+        "numberOfBytes": "32"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
